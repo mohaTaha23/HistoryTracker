@@ -19,7 +19,7 @@ class Record:
         self.version = version
         self.date = date
         self.developer = developer
-        self.app = App(app_name, version)
+        self.app = App(app_name, version,environment)
 
     def info(self):
         return f"{self.app_name},{self.environment},{self.version},{self.date},{self.developer}"
