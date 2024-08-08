@@ -1,0 +1,40 @@
+App Name,Environment,Version,Deployment Date,Deployed by
+0* ^ the header line
+
+cvbnm
+q`1w2
+1* meaningless and empty lines will be ignored
+
+correct line -:
+skype,development,1.0,2024-08-06,Saeed
+
+2*when date is greater than today`s:
+chrome,staging,3.0,2025-09-20,Mai
+
+3*when version is negative:
+intellij,production,-1.1,2024-03-08,Ali
+
+4*when version is not a number:
+cod mw2,development,sth,2024-01-09,Taha
+
+5*when version is larger than 3:
+brawlhalla,production,2.1.9.7,2024-08-12,Mohammad
+
+6*when one of the fields is empty:
+,development,1.0,2024-08-06,Saeed
+skype,,1.0,2024-08-06,Saeed
+skype,development,,2024-08-06,Saeed
+skype,development,1.0,,Saeed
+skype,development,1.0,2024-08-06,
+
+7*when fields number is less than 5 required:
+skype,development,1.0,2024-08-06
+
+youtube,production,-1.0,2024-08-06,Saeed
+poassd,development,1.0,2024-08-19,Saeed
+
+8* duplicated keys will over write the previous ones:
+harri,development,9.9,2024-08-06,Haitham
+harri,development,9.9,2024-08-06,Iman
+
+

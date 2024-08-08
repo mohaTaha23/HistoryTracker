@@ -222,7 +222,7 @@ def save_in_new_file():
     # write on a new file
     try:
         now = datetime.datetime.now()
-        new_file_name = "./result_" + str(now.date()) + ".csv"
+        new_file_name = "./result_" + str(now.time()) + ".csv"
         new_file = open(new_file_name, "w+")
         new_file.seek(0)
     except Exception:
